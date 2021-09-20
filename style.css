@@ -73,7 +73,7 @@
 /* home section styling */
 .home {
   display: flex;
-  background: url("../assets/background.jpg") no-repeat center;
+  background: url("./assets/background.jpg") no-repeat center;
   background-size: cover;
   background-position: 0 0;
   height: 100vh;
@@ -120,8 +120,8 @@
 }
 
 /* about section styling */
-section {
-  padding: 100px 0;
+section.about {
+  padding: 65px 0;
 }
 .about {
   font-family: "Poppins", sans-serif;
@@ -270,7 +270,7 @@ section {
   .about .about-content .column {
     width: 50%;
   }
-  .about .abou-content .left {
+  .about .about-content .left {
     display: flex;
     justify-content: center;
     margin: 0 auto 60px;
@@ -312,5 +312,10 @@ section {
     font-size: 18px;
     margin-top: 13px;
     padding: 3px 10px;
+  }
+
+  .about .about-content .left img {
+    height: 300px;
+    width: 300px;
   }
 }
